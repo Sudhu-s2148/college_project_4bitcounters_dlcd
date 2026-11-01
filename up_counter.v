@@ -18,7 +18,7 @@ module module_4_bit_up_counter (
     and gate_and1 (and1, Q[0], Q[1]);
     xor gate_xor2 (d2, and1, Q[2]);
 
-    and gate_and2 (and2, Q[1], and1);
+    and gate_and2 (and2, Q[2], and1);
     xor gate_xor3 (d3, and2, Q[3]);
 
 
